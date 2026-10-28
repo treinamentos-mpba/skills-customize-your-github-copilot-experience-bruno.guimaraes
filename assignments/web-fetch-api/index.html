@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minhas tarefas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Minhas tarefas</h1>
+
+      <form id="task-form">
+        <label for="task-title">Nova tarefa</label>
+        <div class="form-row">
+          <input id="task-title" name="title" type="text" required />
+          <button type="submit">Adicionar</button>
+        </div>
+      </form>
+
+      <p id="status-message" role="status" aria-live="polite"></p>
+      <ul id="task-list" aria-label="Lista de tarefas"></ul>
+    </main>
+  </body>
+</html>

@@ -65,6 +65,30 @@
       "description": "Build a REST API with FastAPI, Pydantic validation, CRUD endpoints, and automated tests",
       "path": "assignments/fastapi-rest-api",
       "dueDate": "2026-11-04"
+    },
+    {
+      "id": "web-fetch-api",
+      "title": "Aplicação Web com Fetch API",
+      "description": "Conecte uma interface HTML a uma API REST com JavaScript fetch, exibindo e atualizando tarefas.",
+      "path": "assignments/web-fetch-api",
+      "dueDate": "2026-11-04",
+      "attachments": [
+        {
+          "name": "Página inicial",
+          "file": "index.html",
+          "type": "html"
+        },
+        {
+          "name": "JavaScript inicial",
+          "file": "app.js",
+          "type": "javascript"
+        },
+        {
+          "name": "Estilos iniciais",
+          "file": "styles.css",
+          "type": "css"
+        }
+      ]
     }
   ]
 }
